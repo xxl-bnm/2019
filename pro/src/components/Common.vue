@@ -1,13 +1,13 @@
 <template>
     <div>
-        <p>egsibn</p>
+        <h2>公共组件</h2>
     </div>
 </template>
 <script>
 export default {
-    name:'Index'
+    name:'Common'
 }
 </script>
-<style lang="">
+<style scope="">
     
 </style>
