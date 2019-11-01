@@ -1,5 +1,4 @@
 var state={
-    count:0,
-    name:''
+   token:localStorage.getItem('tokename')
 }
 export default state;

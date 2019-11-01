@@ -2,7 +2,11 @@ var modules={
     //a模块
     a:{
         state:{
-            count1:101
+            // user:{
+            //     get userToken(){
+            //         return localStorage.getItem('tokename')
+            //     }
+            // }
         },
         mutations:{
 
