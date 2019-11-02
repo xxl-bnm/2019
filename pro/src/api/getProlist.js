@@ -110,6 +110,9 @@ export const getTokenoderdel=(id,params,token)=>{
  return API.HeadOderdel('/api/v1/admin/orders/'+id,params,token)
 }
 
-
+// 获取用户收货地址
+export const getTokenaddress=(id,params,token)=>{
+ return API.HeadAddress('/api/v1/admin/addresses/'+id,params,token)
+}
 
 

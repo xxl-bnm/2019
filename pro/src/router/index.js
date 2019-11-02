@@ -16,7 +16,7 @@ import SearchUsers from '../view/SearchUsers'
 
 import Oder from '../view/Oder'
 import OderSearch from '../view/OderSearch'
-
+import Address from '../view/Address'
 
 
 Vue.use(Router)
@@ -91,6 +91,11 @@ export default new Router({
           path: '/OderSearch',
           name: 'OderSearch',
           component: OderSearch
+        },
+        {
+          path: '/Address',
+          name: 'Address',
+          component:Address
         }
 
 

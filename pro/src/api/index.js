@@ -158,3 +158,14 @@ export const PUT=(url,params,token)=>{
         headers:{authorization:'Bearer '+token}
     }).then(data=>data)
 }
+//获取用户收货地址
+export const HeadAddress = (url,params,token)=>{
+	return axios({
+		method:"get",
+		url:`${baseUrl}${url}`,
+		data:params,
+		headers:{
+			authorization:"Bearer "+token
+		}
+	}).then(data=>data)
+}

@@ -50,6 +50,7 @@
               <el-menu-item index="1-1-1"><router-link to="/Users" >用户列表</router-link></el-menu-item>
               <el-menu-item index="1-1-1"><router-link to="/AddUsers" >添加用户</router-link></el-menu-item>
                <el-menu-item index="1-1-3"><router-link to="/SearchUsers" >查询用户</router-link></el-menu-item>
+                <el-menu-item index="1-1-3"><router-link to="/Address" >查询用户收货地址</router-link></el-menu-item>
             </el-menu-item-group>
             <el-menu-item-group title="订单管理">
               <el-menu-item index="1-2-1"><router-link to="/Oder">订单列表</router-link></el-menu-item>
