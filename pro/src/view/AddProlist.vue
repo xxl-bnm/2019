@@ -81,7 +81,7 @@ export default {
     },
     methods: {
          handleRemove(file) {//删除
-            console.log(file);
+           // console.log(file);
         },
         handlePictureCardPreview(file) {
             this.dialogImageUrl = file.url;
@@ -97,10 +97,12 @@ export default {
                 quantity :this.formLabelAlign.quantity,     
                 price:this.formLabelAlign.price,
                 coverImg :'images/201606/thumb_img/31_thumb_P_1464910917840.jpg',     
-                productCategory:'images/201606/thumb_img/34_thumb_P_1464911224858.jpg' 
+                productCategory:'5dbb9cad9a50d9347fc23b37' 
             },localStorage.getItem('token')
         ).then((data)=>{
-               console.log(data);
+               if(data.status == 200){
+                   alert('添加成功')
+               }
             })
         },
         upbtn(){

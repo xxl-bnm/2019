@@ -26,6 +26,11 @@
                 <router-link to='./search'>查询商品</router-link>
               </el-menu-item>
             </el-menu-item-group>
+            </el-submenu>
+            <el-submenu index="2">
+            <template slot="title">
+              <i class="el-icon-menu"></i>商品分类管理
+            </template>
             <el-menu-item-group title="分组2">
               <el-menu-item index="2-1-1">
                 <router-link to='/prolist'>商品分类列表</router-link>
@@ -38,6 +43,8 @@
               </el-menu-item>
             </el-menu-item-group>
             </el-submenu>
+            <el-submenu index="3">
+            <template slot="title"><i class="el-icon-setting"></i>用户管理</template>
             <el-menu-item-group>
               <template slot="title">用户管理</template>
               <el-menu-item index="1-1-1"><router-link to="/Users" >用户列表</router-link></el-menu-item>
@@ -48,6 +55,7 @@
               <el-menu-item index="1-2-1"><router-link to="/Oder">订单列表</router-link></el-menu-item>
                <el-menu-item index="1-2-2"><router-link to="/OderSearch">订单查询</router-link></el-menu-item>
             </el-menu-item-group>
+            </el-submenu>
         </el-menu>
       </el-aside>
     </div>
