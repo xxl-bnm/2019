@@ -91,7 +91,6 @@ export default {
             this.src =file.url
         },
         btn() {
-           // console.log(this.src)
             api.getaddProlist({
                 name:this.formLabelAlign.name,         
                 descriptions :this.formLabelAlign.region,

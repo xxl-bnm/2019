@@ -37,6 +37,7 @@
                  <router-link to='/searchs'>查询商品分类</router-link>
               </el-menu-item>
             </el-menu-item-group>
+            </el-submenu>
             <el-menu-item-group>
               <template slot="title">用户管理</template>
               <el-menu-item index="1-1-1"><router-link to="/Users" >用户列表</router-link></el-menu-item>

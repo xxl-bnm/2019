@@ -20,16 +20,6 @@ export const HeadPost = (url,params,token)=>{
 	}).then(data=>data)
 }
 
-
-
-
-
-
-
-
-
-
-
 export const GET=(url,params)=>{
 	return axios.get(`${baseUrl}${url}`,{params:params}).then((data)=>{return data})
 }
@@ -43,10 +33,7 @@ export const GETHead=(url,params,token)=>{
    }).then(data=>data)
 }
 
-//封装post;
-export const POST=(url,params)=>{
-    return axios.post(`${baseUrl}${url}`,params).then(data=>data)
-}
+
 export const POSTHead=(url,params,token)=>{
     return axios({
         method:'post',
@@ -69,13 +56,9 @@ export const HeadGet = (url,params,token)=>{
 }
 
 
-
-
-
-
-export const PUT=(url,params)=>{
-	return axios.put(`${baseUrl}${url}`,{params:params}).then((data)=>{return data})
-}
+// export const PUT=(url,params)=>{
+// 	return axios.put(`${baseUrl}${url}`,{params:params}).then((data)=>{return data})
+// }
 
 //修改用户
 export const HeadPut = (url,params,token)=>{

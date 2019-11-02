@@ -6,7 +6,7 @@ import Router from 'vue-router'//引入router对象
 
 import HelloWorld from '@/components/HelloWorld'
 
-import Index from '../view/index'
+
 import Login from '../view/Login'
 import Users from '../view/Users'
 
@@ -42,24 +42,24 @@ export default new Router({
         },
         //添加分类
         {
-          path: 'procat',
+          path: '/procat',
           name: 'Procat',
           component: () => import('../view/Procat')
         },
         //添加商品
         {
-          path: 'addprolist',
+          path: '/addprolist',
           name: 'AddProlist',
           component: () => import('../view/AddProlist')
         },
         //搜索
         {
-          path: 'search',
+          path: '/search',
           name: 'Searchpro',
           component: () => import('../view/Searchpro')
         },
         {
-          path: 'searchs',
+          path: '/searchs',
           name: 'Searchpros',
           component: () => import('../view/Searchpros')
         },

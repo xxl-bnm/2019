@@ -1,13 +1,11 @@
 
 import * as API from './index';
-//
-// export const getProlist=(params)=>{
-//     return API.GET('/api/v1/users/manager_info',params)
-// }
+
+
 //不带token商品列表
-export const getProlist=(params)=>{
-    return API.GET('/api/v1/admin/products',params)
-}
+// export const getProlist=(params)=>{
+//     return API.GET('/api/v1/admin/products',params)
+// }
 //带token验证的商品列表
 export const getProList=(params,token)=>{
     return API.GETHead('/api/v1/admin/products',params,token)
