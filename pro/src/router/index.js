@@ -25,7 +25,7 @@ export default new Router({
   routes: [
     {
       path: '/HelloWord',
-      name: 'HelloWorld',
+      redirect:'/Prolists',
       component: HelloWorld,
       children: [
         //商品分类列表
